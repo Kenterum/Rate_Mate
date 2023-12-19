@@ -2,6 +2,9 @@ import React from "react";
 import { Card, CardFooter, Image, Button } from "@nextui-org/react";
 import nijat from "../assets/nijat.png";
 import murad from "../assets/murad.png"
+import aykhan from "../assets/aykhan.png"
+import tural from "../assets/tural.png"
+import suleyman from "../assets/suleyman.png"
 
 export default function Team() {
   return (
@@ -35,7 +38,7 @@ export default function Team() {
         <Image
           className="object-cover"
           height={200}
-          src={nijat}
+          src={tural}
         />
         <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
           <p className="text-tiny text-white/80">Tural Gasimov</p>
@@ -53,7 +56,7 @@ export default function Team() {
         <Image
           className="object-cover"
           height={200}
-          src={nijat}
+          src={suleyman}
         />
 
         <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
@@ -70,7 +73,7 @@ export default function Team() {
         className="border-none"
       >
         <Image
-          className="object-cover h-full"
+          className="object-cover"
           src={murad}
         />
 
@@ -90,7 +93,7 @@ export default function Team() {
         <Image
           className="object-cover"
           height={200}
-          src={nijat}
+          src={aykhan}
         />
 
         <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
