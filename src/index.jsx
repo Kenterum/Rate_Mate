@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "../../App";
-import BlogCard from "./BlogCard";
+import "./css/index.css";
+import App from "./jsx/App";
+import BlogCard from "./jsx/BlogCard";
 import { NextUIProvider } from "@nextui-org/react";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import AboutUs from "./AboutUs";
-import Team from "./Team";
+import AboutUs from "./jsx/AboutUs";
+import Team from "./jsx/Team";
 
 const router = createBrowserRouter([
   {
