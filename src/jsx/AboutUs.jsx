@@ -4,7 +4,7 @@ import '../css/AboutUs.css'; // Bu satırı ekleyerek CSS dosyasını import edi
 export default function AboutUs() {
   return (
     <div className="about-us-container">
-      <h1>Welcome to <span className="highlight">Rate Mate</span></h1>
+      <h1><span className="highlight">About Us</span></h1>
       <p>
         The <span className="bold">innovative social media platform</span> where making new friends and sharing experiences is at the heart of what we do. Our journey began with a simple idea: to connect people through events and help them build genuine, lasting friendships.
       </p>
