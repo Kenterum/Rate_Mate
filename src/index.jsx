@@ -7,12 +7,17 @@ import { NextUIProvider } from "@nextui-org/react";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import AboutUs from "./jsx/AboutUs";
 import Team from "./jsx/Team";
+import Home from "./jsx/Home";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        index: true,
+        element: <Home />
+      },
       {
         path: "blog",
         element: <BlogCard />,
