@@ -1,0 +1,36 @@
+.about-us-container {
+    font-family: 'Permanent Marker', cursive; /* Modern ve temiz bir font */
+    color: #333; /* Karanlık bir font rengi */
+    margin: 20px; /* Kenar boşluğu */
+    padding: 20px; /* İç boşluk */
+    text-align: center; /* Metinleri ortala */
+  }
+  
+  .about-us-container h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #000000; /* Başlık için siyah renk */
+    font-size: 32px;
+    line-height: 1.6;
+    margin-bottom: 16px; /* Başlık altındaki boşluk */
+
+  }
+  
+  .about-us-container p {
+    font-size: 32px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    font-family: 'Permanent Marker', cursive;
+}
+  .bold {
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive; /* Anahtar kelimeleri kalın yap */
+  }
+  
+  .highlight {
+    font-weight: bold;
+    font-family: 'Permanent Marker', cursive; /* 'Rate Mate' için özel vurgu */
+  }
+  
+  /* *{
+    font-family: 'Permanent Marker', cursive;
+  } */
