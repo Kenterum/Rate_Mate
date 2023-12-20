@@ -1,31 +1,15 @@
-
-
-.team-card {
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.2s ease-in-out;
-}
-
-.team-card:hover {
-  transform: scale(1.05);
-}
-
-.team-image {
-  transition: filter 0.3s ease-in-out;
-}
-
-.blur-effect {
-  filter: blur(8px);
-}
-
-
-.info-overlay {
-  display: none;
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white
+  width: 100%;
+  display: none;
+  padding: 20px;
+}
+
+.overlay.info-visible{
+  display: block;
+  backdrop-filter: blur(10px);
+  z-index: 11;
 }
